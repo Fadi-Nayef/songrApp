@@ -1,7 +1,7 @@
 # Spring for Full-Stack Web Apps
 
 
-## Overview
+# Lab 11 Overview 
 * Set up a basic webapp that will be useful for the next 5 labs.
 
 ## Setup
@@ -15,3 +15,17 @@
 * Create an Album class to act as a model in our app.
 * An Album has a title, an artist, a songCount, a length (in seconds), and an imageUrl that is a link to that album’s art.
 * Create a route at /albums that shows three album instances. (These will be hardcoded for today’s lab; create an array that contains three albums, and then display those three on the page.)
+
+# Lab 12 Overview
+**Continue working in the same songr webapp you generated for the previous lab. Ensure that you have all of these dependencies in your build.gradle. (Note that when you add the dependencies on postgres and JPA, your app will stop working until you have the configuration in application.properties to access your Postgres database.)**
+
+## Feature Tasks
+- Album model should be saved in a database
+- Album has 
+  - Title
+  -  Artist
+  -  SongCount
+  -  Length
+  -  Img Url
+- A user should be able to see information about all the albums on the site.
+- A user should be able to add albums to the site.  
