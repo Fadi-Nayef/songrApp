@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Songs</title>
+</head>
+<body>
+<body>
+<ul th:each="song : ${songs}">
+    <li th:text="'Title: ' + ${song.title}"></li>
+    <li th:text="'Length: ' +${song.Length}"></li>
+    <li th:text="'trackNumber: ' +${song.trackNumber}"></li>
+    <li th:text="'album: ' +${song.album.title}"></li>
+
+</ul>
+<p> Click <a th:href="@{/addsong}"> here </a> to Add Song</p>
+</body>
+</body>
+</html>
